@@ -1,5 +1,5 @@
-import groupy.garray.C4ht_array as c4ht
-from groupy.gfunc.gfuncarray import GFuncArray
+from groupy.garray import C4ht_array as c4ht
+from .gfuncarray import GFuncArray
 
 
 class C4htFuncArray(GFuncArray):

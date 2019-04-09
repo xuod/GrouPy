@@ -1,6 +1,5 @@
-import groupy.garray.Z3_array as z3a
-from groupy.gfunc.gfuncarray import GFuncArray
-
+from groupy.garray import Z3_array as z3a
+from .gfuncarray import GFuncArray
 
 class Z3FuncArray(GFuncArray):
     def __init__(self, v, umin=None, umax=None, vmin=None, vmax=None):

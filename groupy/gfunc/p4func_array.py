@@ -1,6 +1,6 @@
 import numpy as np
-import groupy.garray.p4_array as p4a
-from groupy.gfunc.gfuncarray import GFuncArray
+from groupy.garray import p4_array as p4a
+from .gfuncarray import GFuncArray
 
 
 class P4FuncArray(GFuncArray):

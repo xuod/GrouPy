@@ -1,5 +1,5 @@
-import groupy.garray.Oht_array as oht
-from groupy.gfunc.gfuncarray import GFuncArray
+from groupy.garray import OhtArray as oht
+from .gfuncarray import GFuncArray
 
 
 class OhtFuncArray(GFuncArray):

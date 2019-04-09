@@ -1,5 +1,5 @@
-import groupy.garray.Ot_array as ot
-from groupy.gfunc.gfuncarray import GFuncArray
+from groupy.garray import Ot_array as ot
+from .gfuncarray import GFuncArray
 
 
 class OtFuncArray(GFuncArray):
