@@ -1,1 +1,1 @@
-import garray, gconv, gfunc
+from . import garray, gconv, gfunc
